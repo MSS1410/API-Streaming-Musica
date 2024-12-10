@@ -17,7 +17,7 @@ Este proyecto es una API RESTful desarrollada en Node.js y MongoDB que permite:
 ## **Instalación**
 
 1. Clonar repositorio:  
-   git clone https://github.com/MSS1410/API-Streaming-Musica.git
+   (git clone) https://github.com/MSS1410/API-Streaming-Musica.git
 
 2. Navega carpeta Proyecto: cd API-Streaming-Musica
 
