@@ -16,17 +16,20 @@ Este proyecto es una API RESTful desarrollada en Node.js y MongoDB que permite:
 
 ## **Instalación**
 
-1. Clonar repositorio:  ```bash
+1. Clonar repositorio:  
    git clone https://github.com/MSS1410/API-Streaming-Musica.git
 
 2. Navega carpeta Proyecto: cd API-Streaming-Musica
 
 3. Instala dependencias : npm install
 
-4. Genera .env con los siguientes valores: DB_URL=mongodb+srv://<TU_USUARIO>:<TU_PASSWORD>@cluster0.mongodb.net/<TU_DB>
-PORT=3010
+4. Genera .env con los siguientes valores:
+       DB_URL=mongodb+srv://<TU_USUARIO>:<TU_PASSWORD>@cluster0.mongodb.net/<TU_DB>
+       PORT=3010
 
 5. Inicia el servidor: npm start
+
+(No se de seguro que este sea el proceso correcto para que ustedes puedan realizar la conexión, espero que si, disculpen cualquien error)
 
 ------------------------------------------------------------------------------------------------
 
