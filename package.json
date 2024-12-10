@@ -1,0 +1,23 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js ",
+    "seed:plataformas": "node src/utils/seed/plataformas.seed.js",
+    "seed:canciones": "node src/utils/seed/canciones.seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.3",
+    "dotenv": "^16.0.3"
+  }
+}
