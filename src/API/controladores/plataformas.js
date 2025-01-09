@@ -44,7 +44,7 @@ const putPlataforma = async (req, res) => {
     if (nuevoDataPlatf.canciones) {
       nuevoDataPlatf.canciones = [
         ...new Set([
-          ...plataformaExistente.canciones.map((id) => id.toString()),
+          ...platExiste.canciones.map((id) => id.toString()),
           nuevoDataPlatf.canciones
         ])
       ]
